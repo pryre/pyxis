@@ -1,0 +1,9 @@
+pyxis_interfaces/AltAz goal
+---
+pyxis_interfaces/AltAz final
+geometry_msgs/Quaternion orientation
+---
+pyxis_interfaces/AltAz current
+geometry_msgs/Quaternion orientation
+float64 progress
+
