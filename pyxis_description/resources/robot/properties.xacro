@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+	<!-- Base -->
+    <xacro:property name="base_height" value="1.0"/>
+    <xacro:property name="base_declination" value="27.0"/>
+    <xacro:property name="base_mass" value="10.0">
+
+    <!-- Scope -->
+	<xacro:property name="scope_length" value="1.0"/>
+    <xacro:property name="scope_radius" value="0.1"/>
+    <!--xacro:property name="wheel_increment" value="0.010"/-->
+    <!--xacro:property name="mu1_wheel" value="0.5"/-->
+    <!--xacro:property name="mu2_wheel" value="0.5"/-->
+    <!--xacro:property name="kp_wheel" value="1000.0"/-->
+    <!--xacro:property name="kd_wheel" value="1000.0"/-->
+
+    <!-- Joints Links -->
+    <xacro:property name="dummy_length" value="0.001"/>
+    <!--xacro:property name="azimuth_limit" value="${pi}"/-->
+    <xacro:property name="altitude_limit" value="${3*pi/8}"/>
+    <xacro:property name="azimuth_force" value="1000"/>
+    <xacro:property name="altitude_force" value="1000"/>
+    <xacro:property name="azimuth_vel" value="1.0"/>
+    <xacro:property name="altitude_vel" value="1.0"/>
+    <xacro:property name="azimuth_fric" value="2.0"/>
+    <xacro:property name="altitude_fric" value="2.0"/>
+</robot>
